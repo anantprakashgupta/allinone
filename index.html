@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -13,118 +14,7 @@
   <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 </head>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-
-  .main-footer {
-    padding: 70px 0;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #112a44;
-    margin-top: 300px;
-  }
-
-  .main-footer ul {
-    list-style: none;
-  }
-
-  .main-footer h1 {
-    font-size: 22px;
-    line-height: 117%;
-    color: #ffffff;
-    margin-bottom: 10px;
-    font-weight: 500;
-  }
-
-  .main-footer h2 {
-    color: #ffffff;
-    font-weight: 500;
-  }
-
-  .main-footer ul li a {
-    color: #ffffffcc;
-    text-decoration: none;
-  }
-
-  footer {
-    background-color: #112a44;
-    border-top: 1px solid #6EB981;
-    font-size: 17px;
-    padding: 15px 5px;
-    color: #ffffff;
-    text-align: center;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-
-  .logoinfo p {
-    color: #6EB981;
-    font-size: 17px;
-    margin-top: 5px;
-  }
-
-  .contact-details {
-    margin-top: 20px;
-  }
-
-  .contact-details li {
-    list-style: none;
-    margin: 10px 0;
-  }
-
-  .contact-details li a {
-    text-decoration: none;
-    color: #f1f1f1;
-  }
-
-  .contact-details .fa {
-    color: #f1f1f1;
-    margin-right: 10px;
-  }
-
-  .sociallogos {
-    padding: 20px 0;
-  }
-
-  .sociallogos .logobox a {
-    padding: 0 10px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 22px;
-  }
-
-  .com ul li {
-    padding: 5px 0;
-  }
-
-  @media only screen and (max-width: 749px) {
-    .main-footer {
-      padding: 20px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .info {
-      padding: 20px 0;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .main-footer {
-      grid-template-columns: 1fr;
-    }
-
-    .sociallogos {
-      padding: 20px 0;
-    }
-
-    .com {
-      padding: 20px 0;
-    }
-
-  }
+ 
 
 
   /* ================flecbox css ================================= */
@@ -168,11 +58,15 @@
 
   @media only screen and (min-width: 768px) {
     .box {
-      width: 45%;
+      width: 60%;
+      font-size: 10px;
+      color: red;
     }
 
     .flexbox {
       gap: 20px;
+      font-size: 10px;
+      color: red;
     }
   }
 
@@ -180,10 +74,14 @@
     .box {
       width: 20%;
       gap: 20px;
+      font-size: 10px;
+      color: red;
     }
 
     .flexbox {
       gap: 20px;
+      font-size: 5px;
+      color: red;
     }
   }
 
@@ -275,6 +173,10 @@
     line-height: 28px;
     font-size: 13px;
   }
+  #Head{
+    color: red;
+    font-size: 20px;
+  }
 
 
   /* Making the header responsive */
@@ -284,6 +186,14 @@
     .header-fixed {
       padding: 20px 0;
       height: 75px;
+      
+    }
+    #Head{
+        font-size: 16px;
+        text-decoration: none;
+    
+        
+        
     }
 
     .header-fixed .header-limiter h1 {
@@ -314,14 +224,15 @@
     padding: 0;
     height: 1500px;
   }
+  a {
+  text-decoration: none;
+}
 </style>
 
 <body>
 
   <header class="header-fixed">
-
     <div class="header-limiter">
-
       <h1><a href="#">All In <span>One</span></a></h1>
 
       <nav>
@@ -341,206 +252,90 @@
     <div class="box">
       <a href="https://anantprakashgupta.github.io/notes/index.html" class=""><img id="icon" src="https://cdn-icons-png.flaticon.com/128/752/752326.png"
           style="width: 80px" alt="" /><br>
-        <span id="Head">All in one </span>
+        <span id="Head">Not Pad</span>
       </a>
-      <div style="color: red; margin-top: 5px; font-size: 20px">
-        Note Pad
-      </div>
+    
     </div>
     <div class="box">
       <a href="https://anantprakashgupta.github.io/fullformfinder/index.html" class=""><img id="icon"
           src="https://toppng.com/uploads/preview/microsoft-word-2010-icon-microsoft-word-2011-icon-ms-word-icon-mac-11553453190kk0zbcl5sp.png"
           style="width: 80px" alt="" /><br>
-        <span id="Head">All in one </span>
+        <span id="Head">Full Form Finder </span>
       </a>
-      <div style="color: red; margin-top: 5px; font-size: 20px">
-        Full Form Finder
-      </div>
+      
     </div>
     <div class="box">
       <a href="https://anantprakashgupta.github.io/calculator/index.html" class=""><img id="icon"
           src="https://c0.klipartz.com/pngpicture/808/903/gratis-png-calculadora-iconos-de-la-computadora-calculadora-thumbnail.png"
           style="width: 80px" alt="" /><br>
-        <span id="Head">Demo</span>
+        <span id="Head">Calculator</span>
       </a>
-      <div style="color: red; margin-top: 5px; font-size: 20px">
-        Calculator
-      </div>
+    
+    </div>
     </div>
 
     <!-- =========================================================== -->
     <div class="flexbox">
       <div class="box">
         <a href="" class=""><img id="icon" src="/image.png" style="width: 80px" alt="" /><br>
-          <span id="Head">Demo</span>
+          <span id="Head">coming soon..</span>
         </a>
-        <div style="color: red; margin-top: 5px; font-size: 20px">
-          Click on this link
-        </div>
+       
       </div>
       <div class="box">
         <a href="" class=""><img id="icon"
             src="https://cdn0.iconfinder.com/data/icons/find-a-job-and-interview-flat/512/interview_online_video_people_call_conference_job_computer_internet_conversation-512.png"
             style="width: 80px" alt="" /><br>
-          <span id="Head">Demo</span>
+          <span id="Head">coming soon..</span>
         </a>
-        <div style="color: red; margin-top: 5px; font-size: 20px">
-          Click on this link
-        </div>
+       
       </div>
       <div class="box">
         <a href="" class=""><img id="icon"
             src="https://cdn0.iconfinder.com/data/icons/video-conference-flaticon/64/INTERNET-global-video_conference-online-meeting-512.png"
             style="width: 80px" alt="" /><br>
-          <span id="Head">Demo</span>
+          <span id="Head">coming soon..</span>
         </a>
-        <div style="color: red; margin-top: 5px; font-size: 20px">
-          Click on this link
-        </div>
+   
       </div>
-
-      <!-- =========================================================== -->
-      <div class="flexbox">
+      
+    </div>
+       <!-- =========================================================== -->
+       <div class="flexbox">
         <div class="box">
           <a href="" class=""><img id="icon" src="/image.png" style="width: 80px" alt="" /><br>
-            <span id="Head">Demo</span>
+            <span id="Head">coming soon..</span>
           </a>
-          <div style="color: red; margin-top: 5px; font-size: 20px">
-            Click on this link
-          </div>
+         
         </div>
         <div class="box">
           <a href="" class=""><img id="icon"
               src="https://cdn0.iconfinder.com/data/icons/find-a-job-and-interview-flat/512/interview_online_video_people_call_conference_job_computer_internet_conversation-512.png"
               style="width: 80px" alt="" /><br>
-            <span id="Head">Demo</span>
+            <span id="Head">coming soon..</span>
           </a>
-          <div style="color: red; margin-top: 5px; font-size: 20px">
-            Click on this link
-          </div>
+         
         </div>
         <div class="box">
           <a href="" class=""><img id="icon"
               src="https://cdn0.iconfinder.com/data/icons/video-conference-flaticon/64/INTERNET-global-video_conference-online-meeting-512.png"
               style="width: 80px" alt="" /><br>
-            <span id="Head">Demo</span>
+            <span id="Head">coming soon..</span>
           </a>
-          <div style="color: red; margin-top: 5px; font-size: 20px">
-            Click on this link
-          </div>
+          
         </div>
+        
+      </div>
+      <!-- =========================================================== -->
+      
 
 
-        <!-- ================================================================ -->
-        <div class="flexbox">
-          <div class="box">
-            <a href="" class=""><img id="icon" src="/image.png" style="width: 80px" alt="" /><br>
-              <span id="Head">Demo</span>
-            </a>
-            <div style="color: red; margin-top: 5px; font-size: 20px">
-              Click on this link
-            </div>
-          </div>
-          <div class="box">
-            <a href="" class=""><img id="icon"
-                src="https://cdn0.iconfinder.com/data/icons/find-a-job-and-interview-flat/512/interview_online_video_people_call_conference_job_computer_internet_conversation-512.png"
-                style="width: 80px" alt="" /><br>
-              <span id="Head">Demo</span>
-            </a>
-            <div style="color: red; margin-top: 5px; font-size: 20px">
-              Click on this link
-            </div>
-          </div>
-          <div class="box">
-            <a href="" class=""><img id="icon"
-                src="https://cdn0.iconfinder.com/data/icons/video-conference-flaticon/64/INTERNET-global-video_conference-online-meeting-512.png"
-                style="width: 80px" alt="" /><br>
-              <span id="Head">Demo</span>
-            </a>
-            <div style="color: red; margin-top: 5px; font-size: 20px">
-              Click on this link
-            </div>
-          </div>
-          <div class="box">
-            <a href="" class=""><img id="icon"
-                src="https://cdn2.iconfinder.com/data/icons/everyday-3/64/video_media_online_web-256.png"
-                style="width: 80px" alt="" /><br>
-              <span id="Head">Demo</span>
-            </a>
-            <div style="color: red; margin-top: 5px; font-size: 20px">
-              Click on this link
-            </div>
-          </div>
-        </div>
+      
+     
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script>
-          $(document).ready(function () {
-            var showHeaderAt = 150;
-            var win = $(window),
-              body = $('body');
-            if (win.width() > 400) {
-              win.on('scroll', function (e) {
-
-                if (win.scrollTop() > showHeaderAt) {
-                  body.addClass('fixed');
-                }
-                else {
-                  body.removeClass('fixed');
-                }
-              });
-
-            }
-
-          });
-          var selector = '.box';
-
-          $(selector).on('click', function () {
-            $(selector).removeClass('active');
-            $(this).addClass('active');
-          });
-        </script>
+        
 </body>
 
-<section id="footer">
-  <div class="main-footer">
-    <div class="logoinfo" data-aos="fade-up">
-      <!-- <h2>Responsive Footer</h2> -->
-      <p>By Anant Prakash</p>
-
-      <div class="contact-details">
-        <h1>Contact Us</h1>
-        <li>
-          <div class="fa fa-phone"></div><a href="tel:+919326048690">+91 0987654321</a>
-        </li>
-        <li>
-          <div class="fa fa-envelope"></div><a href="mailto:prakash@gmail.com">prakash@gmail.com</a>
-        </li>
-        </li>
-      </div>
-    </div>
-    <div class="com " data-aos="fade-up">
-      <h1>About</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-    <div class="info" data-aos="fade-up">
-      <h1>Social Media</h1>
-      <div class="sociallogos">
-        <div class="logobox">
-          <a href="#" class="fa fa-instagram"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-youtube-play"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>© Copyright 2024 All Rights Reserved</footer>
-</section>
 
 </html>
